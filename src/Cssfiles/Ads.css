@@ -1,0 +1,36 @@
+.Ads {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #222;
+    padding: 10px 20px;
+    font-weight: bold;
+    width: 180px;
+    height: 120px;
+    box-shadow: 0 1px 4px 3px #888;
+  }
+  
+  .Ads p {
+    margin: 0;
+  }
+  
+  p.Ad_choice {
+    margin-top: 5px;
+    font-family: Caveat;
+  }
+  
+  .Ad--dark {
+    color: #fff;
+    background-color: rgb(131, 71, 3);
+    border-color: brown;
+    text-align: center;
+    min-width: 50%;
+  }
+
+  .Ad--light {
+    color: black;
+    background-color: rgb(241, 227, 209);
+    border-color: burlywood;
+    text-align: center;
+  }

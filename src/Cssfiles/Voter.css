@@ -1,0 +1,26 @@
+.Votes label {
+    font-weight: bold;
+    display: inline-block;
+    width: 6em;
+  }
+  
+  .Votes p {
+    margin-top: 8px;
+    margin-bottom: 2px;
+  }
+  
+  .Votes__bar {
+    height: 24px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .Votes__bar--chocolate {
+    background-color: #803509;
+  }
+  .Votes__bar--moose {
+    background-color: #f5a107;
+  }
+  .Votes__bar--apple {
+    background-color: #fc0414;
+  }

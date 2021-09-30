@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+/* body {
+  display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  color: #0e3c7e;
+} */
+
+.App > main {
+  margin: 0 10px 25px;
+  max-width: 400px;
+}
+
+.App__ads {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0 -20px;
+}
+
+.App__ads .Ad {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 420px) {
+  .App > main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .App > main {
+    max-width: 900px;
+  }
+
+  .App__ads {
+    flex-direction: row;
+  }
+  
+  .App__activities {
+    display: flex;
+  }
+
+  .App__activities > * {
+    flex: 1
+  }
+}
+
+button {
   color: white;
+  background-color: darkblue;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  padding: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+button.disabled {
+  background-color: gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.active {
+  background-color: #1e60a9;
 }
+
+  
