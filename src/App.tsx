@@ -5,7 +5,6 @@ import Header from './Header';
 import DesignAdd from './Addesigner';
 import Ads from './Ads';
 import Votes from './Votes';
-<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"></link>
 
 function App() {
   return (
